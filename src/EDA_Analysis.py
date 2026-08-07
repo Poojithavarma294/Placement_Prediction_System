@@ -10,16 +10,13 @@ OUTPUT_FOLDER ="C:/Users/dell/PycharmProjects/placement_prediction/outputs/EDA_A
 # Create output folder
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-
 # Plot style
 sns.set(style="whitegrid")
 plt.rcParams["figure.figsize"] = (8, 5)
 
-
 # Load Dataset
 
 df = pd.read_csv(DATASET_PATH)
-
 
 print("=" * 60)
 print("First Five Records")
@@ -98,8 +95,6 @@ for col in numeric_cols:
                             dpi=300,
                             bbox_inches='tight')
    plt.close()
-
-
 
 # 3. OUTLIER DETECTION
 
