@@ -123,7 +123,6 @@ data.to_csv(
     index=False
 )
 
-
 print("\n======================================")
 print("Original dataset is NOT modified.")
 print("Label Encoding completed successfully.")
