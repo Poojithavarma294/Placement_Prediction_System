@@ -83,10 +83,6 @@ for col in categorical_cols:
 print("\nMissing values after preprocessing:")
 print(processed_df.isnull().sum())
 
-# ------------------------------------------------------------
-# 4. Encode Categorical Columns
-# ------------------------------------------------------------
-
 print("\n" + "=" * 70)
 print("CATEGORICAL ENCODING")
 print("=" * 70)
